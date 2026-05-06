@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alura Flix</title>
+<link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="bolinha"></div>
+        <div class="bolinha"></div>
+        <div class="bolinha"></div>
+      </div>
+
+<header>ALURAFLIX</header>
+<section>
+    <div class="chamada-texto">
+        <h1>OS MELHORES TOWCHDOWNS DA TEMPORADA 2024-25</h1>
+        <p>#NFL #AMERICAN-FOOTBALL</p>
+    </div>
+    <div class="video-container">
+        <a href="https://www.youtube.com/watch?v=XQa3UmJMGjM" target="_blank">
+            <img src="https://img.youtube.com/vi/XQa3UmJMGjM/maxresdefault.jpg" alt="Thumbnail do Vídeo" width="560">
+        </a>
+    </div>
+</section>
+
+<section class="categoria">
+    <h2>Vídeos</h2>
+    <div class="categoria-videos">
+      <a href="https://www.youtube.com/watch?v=o7ARvCpJ3tk">
+        <img src="https://img.youtube.com/vi/o7ARvCpJ3tk/maxresdefault.jpg" alt="Miniatura do vídeo 1" />
+      </a>
+      <a href="https://www.youtube.com/watch?v=INigg6LRJVQ">
+        <img src="https://img.youtube.com/vi/INigg6LRJVQ/maxresdefault.jpg" alt="Miniatura do vídeo 2" />
+      </a>
+      <a href="https://www.youtube.com/watch?v=4AJMaUWDj5k">
+        <img src="https://img.youtube.com/vi/4AJMaUWDj5k/maxresdefault.jpg" alt="Miniatura do vídeo 3" />
+      </a>
+      <a href="https://www.youtube.com/watch?v=76RbnOliQ7U">
+        <img src="https://img.youtube.com/vi/76RbnOliQ7U/maxresdefault.jpg" alt="Miniatura do vídeo 4" />
+      </a>
+      <a href="https://www.youtube.com/watch?v=LkGx-Z9nklA">
+        <img src="https://img.youtube.com/vi/LkGx-Z9nklA/maxresdefault.jpg" alt="Miniatura do vídeo 5" />
+      </a>
+    </div>
+  </section>
+
+  <script>
+    window.addEventListener("load", function () {
+      const loader = document.getElementById("loader");
+      setTimeout(() => {
+        loader.style.display = "none";
+      }, 2000); // 2000ms = 2 segundos
+    });
+  </script>
+
+
+</body>
+
+</html>
